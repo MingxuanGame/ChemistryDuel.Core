@@ -1,12 +1,6 @@
-using ChemistryDuel.Core.Game
 namespace ChemistryDuel.Core.Event;
 
-public class ChemistryDuelEvent : EventArgs
+public abstract class EventBase
 {
-    public ChemistryDuelEvent(Game game)
-    {
-        Game = game;
-    }
-
-    public string Game { get; set; }
+    
 }
